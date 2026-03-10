@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hassan Ramzan | Front End & AI Developer</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+   
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="floating-shapes">
+        <div class="shape s1"></div>
+        <div class="shape s2"></div>
+        <div class="shape s3"></div>
+      </div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge"> Available for Work</div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="gradient-text">Hassan Ramzan</span>
+      </h1>
+      <div class="hero-subtitle">
+        <span class="typed-text" id="typedText"></span>
+        <span class="cursor">|</span>
+      </div>
+      <p class="hero-desc">
+        A passionate Front End Developer & AI Engineer building intelligent, scalable, and beautiful applications. 
+        From Java backends to Flutter apps, AI pipelines to food delivery platforms — I build it all.
+      </p>
+      <div class="hero-stats">
+        <div class="stat-box">
+          <span class="stat-num">9+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Languages</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Passion</span>
+        </div>
+      </div>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-down"></i></a>
+        <a href="https://github.com/HASSAN-RAMZAN59" target="_blank" class="btn btn-outline">
+          <i class="fab fa-github"></i> GitHub Profile
+        </a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <img src="https://avatars.githubusercontent.com/u/196050255?v=4" alt="Hassan Ramzan"/>
+        </div>
+      </div>
+      <div class="avatar-tech">
+        <span class="tech-badge t1"><i class="fab fa-java"></i></span>
+        <span class="tech-badge t2"><i class="fab fa-python"></i></span>
+        <span class="tech-badge t3"><i class="fab fa-php"></i></span>
+        <span class="tech-badge t4"><i class="fas fa-mobile-alt"></i></span>
+        <span class="tech-badge t5"><i class="fas fa-robot"></i></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"> about_me</span>
+        <h2>Who Am I?</h2>
+        <p>A developer who loves turning ideas into real products</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm <strong>Hassan Ramzan</strong>, a multi-disciplinary developer with expertise spanning 
+            <em>Java backend systems</em>, <em>AI/ML applications</em>, <em>Flutter mobile apps</em>, 
+            and <em>PHP/web platforms</em>. I thrive on challenging problems and building complete, 
+            production-ready solutions.
+          </p>
+          <p>
+            My journey includes building intelligent voice-based systems powered by <strong>VAPI + n8n</strong>, 
+            real-time object detection using <strong>Hugging Face</strong>, and full-featured food ordering 
+            platforms with <strong>PHP & MySQL</strong>.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight">
+              <i class="fas fa-code"></i>
+              <span>Clean, readable code</span>
+            </div>
+            <div class="highlight">
+              <i class="fas fa-brain"></i>
+              <span>AI-first thinking</span>
+            </div>
+            <div class="highlight">
+              <i class="fas fa-rocket"></i>
+              <span>Fast delivery</span>
+            </div>
+    
+          </div>
+          <a href="https://github.com/HASSAN-RAMZAN59" class="btn btn-primary" target="_blank">
+            <i class="fab fa-github"></i> View GitHub
+          </a>
+        </div>
+        <div class="about-card-area">
+          <div class="terminal-card">
+            <div class="terminal-bar">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="terminal-title">hassan@dev:~$</span>
+            </div>
+            <div class="terminal-body">
+              
+              <p class="output">Hassan Ramzan — Front End & AI Dev</p>
+              
+              <p class="output">Java, Python, Dart, PHP, HTML/CSS</p>
+              <p class="output">Flutter, Streamlit, HuggingFace</p>
+              <p class="output">JDBC, MySQL, n8n, VAPI</p>
+              
+              <p class="output success">Building things that matter </p>
+             
+              <p class="output">9 projects committed with love </p>
+              <p class="blink-cursor">█</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Tech_stack</span>
+        <h2>Skills & Technologies</h2>
+        <p>Tools and languages I work with</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Languages</h3>
+          <div class="skill-tags">
+            <span class="stag java"><i class="fab fa-java"></i> Java</span>
+            <span class="stag python"><i class="fab fa-python"></i> Python</span>
+            <span class="stag dart"><i class="fas fa-mobile-alt"></i> Dart</span>
+            <span class="stag php"><i class="fab fa-php"></i> PHP</span>
+            <span class="stag html"><i class="fab fa-html5"></i> HTML/CSS</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-layer-group"></i> Frameworks & Tools</h3>
+          <div class="skill-tags">
+            <span class="stag flutter"><i class="fas fa-mobile-alt"></i> Flutter</span>
+            <span class="stag streamlit"><i class="fas fa-chart-line"></i> Streamlit</span>
+            <span class="stag jdbc"><i class="fas fa-database"></i> JDBC</span>
+            <span class="stag mysql"><i class="fas fa-server"></i> MySQL</span>
+            <span class="stag git"><i class="fab fa-git-alt"></i> Git/GitHub</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-robot"></i> AI / Automation</h3>
+          <div class="skill-tags">
+            <span class="stag hf"><i class="fas fa-brain"></i> HuggingFace</span>
+            <span class="stag n8n"><i class="fas fa-cogs"></i> n8n</span>
+            <span class="stag vapi"><i class="fas fa-microphone"></i> VAPI</span>
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My_work</span>
+        <h2>Featured Projects</h2>
+        <p>Real projects I've built from scratch</p>
+      </div>
+      <div class="filter-btns">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="java">Java</button>
+        <button class="filter-btn" data-filter="python">Python / AI</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+
+        <div class="project-card" data-cat="python ai">
+          <div class="card-top ai-gradient">
+            <i class="fas fa-comments"></i>
+          </div>
+          <div class="card-body">
+            <div class="card-lang"><span class="lang-badge python-b">Python</span><span class="lang-badge ai-b">AI</span></div>
+            <h3>HuggingFace Multimodal App</h3>
+            <p>A smart AI that analyzes images, answers questions, writes paragraphs, and speaks aloud — powered by HuggingFace & Streamlit.</p>
+            <div class="card-tech">
+              <span>Streamlit</span><span>HuggingFace</span><span>TTS</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/HASSAN-RAMZAN59/HuggingFace-Multimodal-App" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-cat="python ai">
+          <div class="card-top detection-gradient">
+            <i class="fas fa-eye"></i>
+          </div>
+          <div class="card-body">
+            <div class="card-lang"><span class="lang-badge python-b">Python</span><span class="lang-badge ai-b">CV</span></div>
+            <h3>Real-Time Object Detection</h3>
+            <p>Live camera object detection using HuggingFace transformer models — detects objects in real time through webcam.</p>
+            <div class="card-tech">
+              <span>HuggingFace</span><span>OpenCV</span><span>Transformers</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/HASSAN-RAMZAN59/Object-detection" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-cat="java">
+          <div class="card-top java-gradient">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <div class="card-body">
+            <div class="card-lang"><span class="lang-badge java-b">Java</span><span class="lang-badge db-b">JDBC</span></div>
+            <h3>Restaurant Order System</h3>
+            <p>Full-featured restaurant order management system built with Java & JDBC for database-driven order processing.</p>
+            <div class="card-tech">
+              <span>Java</span><span>JDBC</span><span>MySQL</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/HASSAN-RAMZAN59/Restaurant-Order-System" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-cat="java">
+          <div class="card-top contact-gradient">
+            <i class="fas fa-address-book"></i>
+          </div>
+          <div class="card-body">
+            <div class="card-lang"><span class="lang-badge java-b">Java</span><span class="lang-badge gui-b">GUI</span></div>
+            <h3>Contact Book</h3>
+            <p>Java Swing GUI application for managing contacts — add, edit, delete, and search contacts with a clean interface.</p>
+            <div class="card-tech">
+              <span>Java</span><span>Swing</span><span>File I/O</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/HASSAN-RAMZAN59/ContactBook" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-cat="mobile">
+          <div class="card-top flutter-gradient">
+            <i class="fas fa-calculator"></i>
+          </div>
+          <div class="card-body">
+            <div class="card-lang"><span class="lang-badge dart-b">Dart</span><span class="lang-badge flutter-b">Flutter</span></div>
+            <h3>Loan Simulator App</h3>
+            <p>Beautiful Flutter mobile application that simulates loan calculations — monthly payments, interest rates, and repayment schedule.</p>
+            <div class="card-tech">
+              <span>Flutter</span><span>Dart</span><span>Material UI</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/HASSAN-RAMZAN59/loan-simulator-app" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-cat="web">
+          <div class="card-top food-gradient">
+            <i class="fas fa-hamburger"></i>
+          </div>
+          <div class="card-body">
+            <div class="card-lang"><span class="lang-badge php-b">PHP</span><span class="lang-badge web-b">Web</span></div>
+            <h3>BITESPOT Food Website</h3>
+            <p>Complete online food ordering platform — menu management, cart system, order tracking, and admin dashboard built with PHP & MySQL.</p>
+            <div class="card-tech">
+              <span>PHP</span><span>MySQL</span><span>HTML/CSS</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/HASSAN-RAMZAN59/BITESPOT-food-website" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-cat="python ai">
+          <div class="card-top voice-gradient">
+            <i class="fas fa-microphone-alt"></i>
+          </div>
+          <div class="card-body">
+            <div class="card-lang"><span class="lang-badge ai-b">AI</span><span class="lang-badge auto-b">Automation</span></div>
+            <h3>Voice Appointment Booking</h3>
+            <p>Voice-based AI system that books appointments via conversation — VAPI for voice, n8n for automation, Google Calendar + Gmail integration.</p>
+            <div class="card-tech">
+              <span>VAPI</span><span>n8n</span><span>Google API</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/HASSAN-RAMZAN59/voice-based-appointment-booking" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-cat="web">
+          <div class="card-top vehicle-gradient">
+            <i class="fas fa-car"></i>
+          </div>
+          <div class="card-body">
+            <div class="card-lang"><span class="lang-badge web-b">System</span></div>
+            <h3>Vehicle Monitoring System</h3>
+            <p>A vehicle monitoring and tracking system designed to manage and track vehicle data efficiently.</p>
+            <div class="card-tech">
+              <span>System Design</span><span>Tracking</span>
+            </div>
+            <div class="card-links">
+              <a href="https://github.com/HASSAN-RAMZAN59/vehicle-monitoring-system" target="_blank"><i class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get_in_touch</span>
+        <h2>Contact Me</h2>
+        <p>Let's build something amazing together</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>I'm always open to new opportunities, collaborations, and interesting projects. Feel free to reach out!</p>
+          <div class="contact-links">
+            <a href="https://github.com/HASSAN-RAMZAN59" target="_blank" class="contact-item github">
+              <i class="fab fa-github"></i>
+              <div>
+                <strong>GitHub</strong>
+                <span>HASSAN-RAMZAN59</span>
+              </div>
+            </a>
+            <a href="mailto:hasaanramzan@email.com" class="contact-item email">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <span>hasaanramzan@email.com</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required/>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required/>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Subject"/>
+          </div>
+          <div class="form-group">
+            <textarea rows="5" placeholder="Your Message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+       
+        <p>Built by Hassan Ramzan</p>
+        <div class="footer-socials">
+          <a href="https://github.com/HASSAN-RAMZAN59" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2026 Hassan Ramzan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
