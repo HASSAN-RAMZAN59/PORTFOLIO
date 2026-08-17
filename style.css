@@ -142,6 +142,11 @@
 }
 
 .exp-tech-tags .stag {
+  display: inline-flex !important;
+  width: auto !important;
+  flex: 0 0 auto !important;
+  padding: 6px 14px;
+  border-radius: 20px;
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--border);
   color: var(--text);
@@ -824,12 +829,12 @@ img {
 }
 
 .stag {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 10px 12px;
-  border-radius: 12px;
+  padding: 6px 14px;
+  border-radius: 20px;
   font-size: 0.82rem;
   font-weight: 600;
   background: rgba(255, 255, 255, 0.05);
@@ -837,9 +842,14 @@ img {
   color: var(--text);
   transition: all 0.3s ease;
   position: relative;
-  text-align: center;
   box-sizing: border-box;
+  width: auto;
+}
+
+.skills-grid .stag {
   width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
 }
 
 .stag:hover {
