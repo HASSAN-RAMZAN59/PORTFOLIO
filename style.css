@@ -776,7 +776,8 @@ img {
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+  gap: 24px;
+  align-items: stretch;
   margin-bottom: 60px;
 }
 
@@ -784,7 +785,10 @@ img {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 28px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   transition: all 0.3s;
 }
 
@@ -811,17 +815,19 @@ img {
 }
 
 .skill-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: auto;
 }
 
 .stag {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 6px 14px;
-  border-radius: 20px;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 12px;
   font-size: 0.82rem;
   font-weight: 600;
   background: rgba(255, 255, 255, 0.05);
@@ -829,10 +835,13 @@ img {
   color: var(--text);
   transition: all 0.3s ease;
   position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .stag:hover {
-  transform: translateY(-2px) scale(1.05);
+  transform: translateY(-2px) scale(1.03);
   border-color: var(--accent);
   box-shadow: 0 4px 16px rgba(0, 212, 255, 0.15);
 }
