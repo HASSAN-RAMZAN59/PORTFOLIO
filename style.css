@@ -969,6 +969,60 @@ img {
   color: #22c55e;
 }
 
+.js {
+  background: rgba(247, 223, 30, 0.1);
+  border-color: rgba(247, 223, 30, 0.3);
+  color: #f7df1e;
+}
+
+.cpp {
+  background: rgba(0, 89, 156, 0.1);
+  border-color: rgba(0, 89, 156, 0.3);
+  color: #659ad2;
+}
+
+.react {
+  background: rgba(97, 218, 251, 0.1);
+  border-color: rgba(97, 218, 251, 0.3);
+  color: #61dafb;
+}
+
+.fastapi {
+  background: rgba(5, 153, 139, 0.1);
+  border-color: rgba(5, 153, 139, 0.3);
+  color: #05998b;
+}
+
+.node {
+  background: rgba(104, 160, 99, 0.1);
+  border-color: rgba(104, 160, 99, 0.3);
+  color: #68a063;
+}
+
+.laravel {
+  background: rgba(255, 45, 32, 0.1);
+  border-color: rgba(255, 45, 32, 0.3);
+  color: #ff2d20;
+}
+
+.mongo {
+  background: rgba(71, 162, 72, 0.1);
+  border-color: rgba(71, 162, 72, 0.3);
+  color: #47a248;
+}
+
+.postgres {
+  background: rgba(51, 103, 145, 0.1);
+  border-color: rgba(51, 103, 145, 0.3);
+  color: #336791;
+}
+
+.bootstrap {
+  background: rgba(121, 82, 179, 0.1);
+  border-color: rgba(121, 82, 179, 0.3);
+  color: #7952b3;
+}
+
 /* GitHub Stats */
 .github-stats {
   text-align: center;
