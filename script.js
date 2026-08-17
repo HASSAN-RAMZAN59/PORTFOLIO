@@ -31,8 +31,9 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 // ===== TYPED TEXT ANIMATION =====
 const texts = [
   'Full Stack Developer',
+  'Mobile App Developer',
   'AI & ML Engineer',
-  'Flutter App Builder',
+  'React Native & Flutter Dev',
   'Python Backend Dev'
 ];
 let textIndex = 0;
