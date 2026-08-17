@@ -6,6 +6,17 @@
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Hassan Ramzan - Full Stack Developer & AI Engineer specializing in Java, Python, Flutter, React, and AI automation." />
+  
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="Hassan Ramzan | Full Stack AI Developer" />
+  <meta property="og:description" content="Building intelligent, scalable, and beautiful applications. Check out my featured projects and tech stack." />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/196050255?v=4" />
+  <meta property="og:type" content="website" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/196050255?v=4" />
+
   <title>Hassan Ramzan | Full Stack AI Developer</title>
   <link rel="stylesheet" href="style.css" />
   <!-- particles.js CDN -->
@@ -29,10 +40,11 @@
     <ul class="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <div class="hamburger" id="hamburger">
+    <div class="hamburger" id="hamburger" aria-label="Toggle Navigation">
       <span></span><span></span><span></span>
     </div>
   </nav>
@@ -161,6 +173,55 @@
         </div>
       </div>
 
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-aos="fade-up">Work_history</span>
+        <h2 data-aos="fade-up">Experience & Internship</h2>
+        <p data-aos="fade-up">Professional hands-on experience in mobile & software engineering</p>
+      </div>
+
+      <div class="timeline-steps">
+        <div class="timeline-step" data-aos="fade-up">
+          <div class="timeline-dot">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="exp-header">
+              <h3 class="exp-role">Mobile Development Intern (React Native)</h3>
+              <div class="exp-meta">
+                <span class="exp-company"><i class="fas fa-building"></i> VIBERAYTECH</span>
+                <span class="exp-date"><i class="far fa-calendar-alt"></i> July 1, 2026 – Aug 31, 2026</span>
+                <span class="exp-loc"><i class="fas fa-map-marker-alt"></i> Rawalpindi / Onsite</span>
+              </div>
+            </div>
+            <ul class="exp-list">
+              <li>
+                <i class="fas fa-check-circle exp-bullet"></i>
+                <span><strong>AI-Powered Reverse Image Search App:</strong> Built an AI-powered Reverse Image Search app incorporating multi-engine image identification, camera/gallery integration, and automated usage limit tracking.</span>
+              </li>
+              <li>
+                <i class="fas fa-check-circle exp-bullet"></i>
+                <span><strong>Duplicate File Remover App:</strong> Developed a high-performance Duplicate File Remover app featuring custom Java native modules, multi-format media scanning, Scoped Storage permission handling, and automated storage cleanup.</span>
+              </li>
+              <li>
+                <i class="fas fa-check-circle exp-bullet"></i>
+                <span><strong>Software Update & Device Diagnostic App:</strong> Built a comprehensive Software Update & Device Diagnostic app incorporating automated app version scanning, bulk uninstaller, OS update detection, and an AI-powered device assistant.</span>
+              </li>
+            </ul>
+            <div class="exp-tech-tags">
+              <span class="stag react-native"><i class="fab fa-react"></i> React Native</span>
+              <span class="stag java"><i class="fab fa-java"></i> Java Native Modules</span>
+              <span class="stag android"><i class="fab fa-android"></i> Scoped Storage API</span>
+              <span class="stag ai"><i class="fas fa-robot"></i> AI Integration</span>
+              <span class="stag device"><i class="fas fa-mobile-alt"></i> Device Diagnostics</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -179,7 +240,7 @@
         <button class="filter-btn" data-filter="web" data-aos="fade-up" data-aos-delay="300">Web</button>
         <button class="filter-btn" data-filter="mobile" data-aos="fade-up" data-aos-delay="400">Mobile</button>
       </div>
-       <div class="projects-grid" id="projectsGrid">
+      <div class="projects-grid" id="projectsGrid">
 
         <div class="project-card" data-cat="web python" data-aos="fade-up">
           <div class="card-top hardware-gradient">
@@ -192,20 +253,22 @@
               <span class="lang-badge db-b">MongoDB</span>
             </div>
             <h3>Mian & Sons Hardware Store</h3>
-            <p>End-to-end digital storefront and management system with secure authentication, admin panel, sales tracking, and real-time inventory management.</p>
+            <p>End-to-end digital storefront and management system with secure authentication, admin panel, sales
+              tracking, and real-time inventory management.</p>
             <div class="card-tech">
-              <span>ReactJS</span><span>FastAPI</span><span>MongoDB</span><span>REST API</span>
+              <span>ReactJS</span><span>FastAPI</span><span>MongoDB</span>
             </div>
             <div class="card-links">
-              <a href="https://github.com/HASSAN-RAMZAN59/Mian-and-Sons-Hardware-Store" target="_blank"><i class="fab fa-github"></i> Code</a>
-              <a href="https://www.miansonshardwarestore.me/" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+              <a href="https://github.com/HASSAN-RAMZAN59/Mian-and-Sons-Hardware-Store" target="_blank"><i
+                  class="fab fa-github"></i> Code</a>
+              <a href="https://www.miansonshardwarestore.me/" target="_blank"><i class="fas fa-external-link-alt"></i>
+                Live</a>
             </div>
           </div>
         </div>
 
         <div class="project-card" data-cat="python ai" data-aos="fade-up">
           <div class="card-top ai-gradient">
-            <img class="card-img" src="https://placehold.co/56x56/00d4ff/fff?text=AI" alt="Project Image" />
             <i class="fas fa-comments"></i>
           </div>
           <div class="card-body">
@@ -392,8 +455,7 @@
                 <span>hasaanramzan@email.com</span>
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/muhammad-hassan-cs/"
-              target="_blank" class="contact-item linkedin">
+            <a href="https://www.linkedin.com/in/muhammad-hassan-cs/" target="_blank" class="contact-item linkedin">
               <i class="fab fa-linkedin"></i>
               <div>
                 <strong>LinkedIn</strong>

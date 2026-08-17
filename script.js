@@ -107,15 +107,12 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.1 });
 
-document.querySelectorAll('.project-card, .skill-category, .highlight, .contact-item').forEach(el => {
+document.querySelectorAll('.project-card, .skill-category, .highlight, .contact-item, .timeline-step').forEach(el => {
   el.style.opacity = '0';
   el.style.transform = 'translateY(30px)';
   el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
   observer.observe(el);
 });
-
-// ===== CONTACT FORM =====
-
 
 // ===== SMOOTH ACTIVE NAV LINK =====
 const sections = document.querySelectorAll('section[id]');
