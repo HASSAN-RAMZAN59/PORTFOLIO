@@ -140,6 +140,21 @@
   border-top: 1px solid var(--border);
 }
 
+.exp-tech-tags .stag {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.exp-tech-tags .stag:hover {
+  background: rgba(0, 212, 255, 0.12);
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
 @media (max-width: 768px) {
   .timeline-steps {
     padding-left: 16px;
