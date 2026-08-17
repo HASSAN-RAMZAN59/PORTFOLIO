@@ -1141,35 +1141,48 @@ img {
 }
 
 .ai-gradient {
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.18), rgba(118, 75, 162, 0.25)) !important;
+  color: #a78bfa !important;
 }
 
 .detection-gradient {
-  background: linear-gradient(135deg, #f093fb, #f5576c);
+  background: linear-gradient(135deg, rgba(240, 147, 251, 0.18), rgba(245, 87, 108, 0.25)) !important;
+  color: #f472b6 !important;
 }
 
 .java-gradient {
-  background: linear-gradient(135deg, #f59e0b, #d97706);
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.18), rgba(217, 119, 6, 0.25)) !important;
+  color: #fbbf24 !important;
 }
 
 .contact-gradient {
-  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  background: linear-gradient(135deg, rgba(79, 172, 254, 0.18), rgba(0, 242, 254, 0.25)) !important;
+  color: #38bdf8 !important;
 }
 
 .flutter-gradient {
-  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  background: linear-gradient(135deg, rgba(67, 233, 123, 0.18), rgba(56, 249, 215, 0.25)) !important;
+  color: #4ade80 !important;
 }
 
 .food-gradient {
-  background: linear-gradient(135deg, #fa709a, #fee140);
+  background: linear-gradient(135deg, rgba(250, 112, 154, 0.18), rgba(254, 225, 64, 0.25)) !important;
+  color: #fb7185 !important;
 }
 
 .voice-gradient {
-  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  background: linear-gradient(135deg, rgba(161, 140, 209, 0.18), rgba(251, 194, 235, 0.25)) !important;
+  color: #c084fc !important;
 }
 
 .vehicle-gradient {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(135deg, rgba(15, 32, 39, 0.5), rgba(32, 58, 67, 0.6), rgba(44, 83, 100, 0.6)) !important;
+  color: #38bdf8 !important;
+}
+
+.hardware-gradient {
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.18), rgba(124, 58, 237, 0.25)) !important;
+  color: var(--accent) !important;
 }
 
 .card-body {
