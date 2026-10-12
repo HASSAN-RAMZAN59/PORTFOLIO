@@ -1255,7 +1255,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  margin-bottom: 20px;
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
 .card-tech span {
@@ -1281,7 +1282,7 @@ img {
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
-  margin-top: auto;
+  margin-top: 16px;
 }
 
 .card-action-btn i {
