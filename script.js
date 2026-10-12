@@ -88,7 +88,7 @@ filterBtns.forEach(btn => {
     btn.classList.add('active');
     const filter = btn.dataset.filter;
     projectCards.forEach(card => {
-      const cats = card.dataset.cat || '';
+      const cats = card.dataset.cat ? card.dataset.cat.split(' ') : [];
       if (filter === 'all' || cats.includes(filter)) {
         card.classList.remove('hidden');
         card.style.opacity = '1';
