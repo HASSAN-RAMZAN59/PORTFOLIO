@@ -80,6 +80,7 @@ if (contactForm) {
 }
 const filterBtns = document.querySelectorAll('.filter-btn');
 const projectCards = document.querySelectorAll('.project-card');
+const categoryGroups = document.querySelectorAll('.project-category-group');
 
 filterBtns.forEach(btn => {
   btn.addEventListener('click', () => {
@@ -90,9 +91,20 @@ filterBtns.forEach(btn => {
       const cats = card.dataset.cat || '';
       if (filter === 'all' || cats.includes(filter)) {
         card.classList.remove('hidden');
-        card.style.animation = 'fadeIn 0.4s ease';
+        card.style.opacity = '1';
+        card.style.transform = 'translateY(0)';
+        card.style.animation = 'fadeIn 0.35s ease';
       } else {
         card.classList.add('hidden');
+      }
+    });
+
+    categoryGroups.forEach(group => {
+      const visible = group.querySelectorAll('.project-card:not(.hidden)');
+      if (visible.length === 0) {
+        group.classList.add('hidden');
+      } else {
+        group.classList.remove('hidden');
       }
     });
   });

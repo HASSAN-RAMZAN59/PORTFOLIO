@@ -275,357 +275,422 @@
         <p data-aos="fade-up">Real projects I've built from scratch</p>
       </div>
       <div class="filter-btns">
-        <button class="filter-btn active" data-filter="all" data-aos="fade-up">All</button>
-        <button class="filter-btn" data-filter="java" data-aos="fade-up" data-aos-delay="100">Java</button>
-        <button class="filter-btn" data-filter="python" data-aos="fade-up" data-aos-delay="200">Python / AI</button>
-        <button class="filter-btn" data-filter="web" data-aos="fade-up" data-aos-delay="300">Web</button>
-        <button class="filter-btn" data-filter="mobile" data-aos="fade-up" data-aos-delay="400">Mobile</button>
+        <button class="filter-btn active" data-filter="all" data-aos="fade-up">All (17)</button>
+        <button class="filter-btn" data-filter="mobile" data-aos="fade-up" data-aos-delay="100"><i class="fas fa-mobile-alt"></i> Mobile Apps (8)</button>
+        <button class="filter-btn" data-filter="web" data-aos="fade-up" data-aos-delay="200"><i class="fas fa-globe"></i> Web Platforms (4)</button>
+        <button class="filter-btn" data-filter="python" data-aos="fade-up" data-aos-delay="300"><i class="fas fa-robot"></i> AI & Python (3)</button>
+        <button class="filter-btn" data-filter="java" data-aos="fade-up" data-aos-delay="400"><i class="fab fa-java"></i> Java Systems (2)</button>
       </div>
-      <div class="projects-grid" id="projectsGrid">
 
-        <!-- 1. Pill Reminder App -->
-        <div class="project-card" data-cat="mobile" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box mobile-icon"><i class="fas fa-pills"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge flutter-b">React Native</span>
-                <span class="lang-badge gui-b">Android</span>
+      <div class="projects-container" id="projectsContainer">
+
+        <!-- ==================== GROUP 1: MOBILE APPLICATIONS ==================== -->
+        <div class="project-category-group" data-group="mobile">
+          <div class="group-header" data-aos="fade-up">
+            <div class="group-title-wrap">
+              <div class="group-icon mobile"><i class="fas fa-mobile-alt"></i></div>
+              <div>
+                <h3 class="group-title">Mobile Applications</h3>
+                <p class="group-subtitle">Cross-platform iOS & Android apps built with React Native, Java Modules & Flutter</p>
               </div>
             </div>
+            <span class="group-count">8 Projects</span>
           </div>
-          <div class="card-body">
-            <h3 class="project-title">Pill Reminder App</h3>
-            <p class="project-desc">Smart offline medication reminder app featuring exact-trigger alarms with Notifee, ultra-fast MMKV local storage, and adherence streak tracking.</p>
-            <div class="card-tech">
-              <span>React Native</span><span>Notifee</span><span>MMKV</span><span>Exact Alarms</span><span>Health Trends</span>
+
+          <div class="projects-grid">
+            <!-- 1. Pill Reminder App -->
+            <div class="project-card" data-cat="mobile" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box mobile-icon"><i class="fas fa-pills"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge flutter-b">React Native</span>
+                    <span class="lang-badge gui-b">Android</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Pill Reminder App</h3>
+                <p class="project-desc">Smart offline medication reminder app featuring exact-trigger alarms with Notifee, ultra-fast MMKV local storage, and adherence streak tracking.</p>
+                <div class="card-tech">
+                  <span>React Native</span><span>Notifee</span><span>MMKV</span><span>Exact Alarms</span><span>Health Trends</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. Invoice Maker App -->
+            <div class="project-card" data-cat="mobile" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box mobile-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge flutter-b">React Native</span>
+                    <span class="lang-badge gui-b">Android</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Invoice Maker App</h3>
+                <p class="project-desc">Mobile invoicing and billing app for businesses to create, track, and manage invoices with tax & discount calculation, HTML-to-PDF generation, printing, and i18n support.</p>
+                <div class="card-tech">
+                  <span>React Native</span><span>JavaScript</span><span>Context API</span><span>AsyncStorage</span><span>HTML-to-PDF</span><span>i18n</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Zip Archiver App -->
+            <div class="project-card" data-cat="mobile" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box mobile-icon"><i class="fas fa-file-zipper"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge flutter-b">React Native</span>
+                    <span class="lang-badge gui-b">Android</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Zip Archiver App</h3>
+                <p class="project-desc">Offline file archive manager to create, extract, and manage compressed files featuring deep storage scanning, AES-256 encryption, and media indexing.</p>
+                <div class="card-tech">
+                  <span>React Native</span><span>RNFS</span><span>Zip Archive</span><span>AES-256</span><span>AsyncStorage</span><span>Lottie</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4. Tiff Image Converter App -->
+            <div class="project-card" data-cat="mobile" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box mobile-icon"><i class="fas fa-file-image"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge flutter-b">React Native</span>
+                    <span class="lang-badge gui-b">Android</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Tiff Image Converter App</h3>
+                <p class="project-desc">Offline multi-page TIFF viewer and converter featuring a high-speed batch conversion engine exporting TIFF files to JPG, PNG, WEBP, and PDF.</p>
+                <div class="card-tech">
+                  <span>React Native</span><span>UTIF</span><span>RNFS</span><span>Batch Export</span><span>i18next</span><span>Lottie</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5. Software Update & Device Diagnostic App -->
+            <div class="project-card" data-cat="mobile" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box mobile-icon"><i class="fas fa-mobile-alt"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge flutter-b">React Native</span>
+                    <span class="lang-badge gui-b">Android</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Software Update & Device Diagnostic App</h3>
+                <p class="project-desc">Cross-platform mobile utility for hardware diagnostics, OS verification, update scanning, bulk uninstalls, storage analytics, and AI troubleshooting assistant with i18n support.</p>
+                <div class="card-tech">
+                  <span>React Native</span><span>JS</span><span>Android APIs</span><span>AsyncStorage</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 6. Reverse Image Search App -->
+            <div class="project-card" data-cat="mobile python ai" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box ai-icon"><i class="fas fa-search-location"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge flutter-b">React Native</span>
+                    <span class="lang-badge ai-b">Vision AI</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Reverse Image Search App</h3>
+                <p class="project-desc">AI-powered visual identification app featuring multi-engine reverse image searching, camera/gallery integration, image cropping, automated usage tracking, and caching.</p>
+                <div class="card-tech">
+                  <span>React Native</span><span>Vision AI</span><span>REST APIs</span><span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 7. Duplicate File Remover App -->
+            <div class="project-card" data-cat="mobile java" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box java-icon"><i class="fas fa-copy"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge flutter-b">React Native</span>
+                    <span class="lang-badge java-b">Java Native</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Duplicate File Remover App</h3>
+                <p class="project-desc">High-performance Android utility app to scan, group, and safely remove duplicate media and documents using file-hashing algorithms and custom Java Native Modules for Scoped Storage.</p>
+                <div class="card-tech">
+                  <span>React Native</span><span>Java Modules</span><span>Android APIs</span><span>File Hashing</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 8. Loan Simulator App -->
+            <div class="project-card" data-cat="mobile" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box mobile-icon"><i class="fas fa-calculator"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge dart-b">Dart</span>
+                    <span class="lang-badge flutter-b">Flutter</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Loan Simulator App</h3>
+                <p class="project-desc">Beautiful Flutter mobile application that simulates loan calculations — monthly payments, interest rates, and repayment schedule.</p>
+                <div class="card-tech">
+                  <span>Flutter</span><span>Dart</span><span>Material UI</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- 2. Invoice Maker App -->
-        <div class="project-card" data-cat="mobile" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box mobile-icon"><i class="fas fa-file-invoice-dollar"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge flutter-b">React Native</span>
-                <span class="lang-badge gui-b">Android</span>
+        <!-- ==================== GROUP 2: WEB & FULL-STACK PLATFORMS ==================== -->
+        <div class="project-category-group" data-group="web">
+          <div class="group-header" data-aos="fade-up">
+            <div class="group-title-wrap">
+              <div class="group-icon web"><i class="fas fa-laptop-code"></i></div>
+              <div>
+                <h3 class="group-title">Web & Full-Stack Platforms</h3>
+                <p class="group-subtitle">Scalable web applications, ERP dashboards, and digital storefronts</p>
               </div>
             </div>
+            <span class="group-count">4 Projects</span>
           </div>
-          <div class="card-body">
-            <h3 class="project-title">Invoice Maker App</h3>
-            <p class="project-desc">Mobile invoicing and billing app for businesses to create, track, and manage invoices with tax & discount calculation, HTML-to-PDF generation, printing, and i18n support.</p>
-            <div class="card-tech">
-              <span>React Native</span><span>JavaScript</span><span>Context API</span><span>AsyncStorage</span><span>HTML-to-PDF</span><span>i18n</span>
+
+          <div class="projects-grid">
+            <!-- 9. Car Showroom ERP System -->
+            <div class="project-card" data-cat="web python" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box vehicle-icon"><i class="fas fa-car-side"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge web-b">React</span>
+                    <span class="lang-badge python-b">FastAPI</span>
+                    <span class="lang-badge db-b">PostgreSQL</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Car Showroom ERP System</h3>
+                <p class="project-desc">Full-stack dealership platform to manage vehicle inventory, sales, consignments, and installments with role-based auth, async REST APIs, and dynamic financial dashboards.</p>
+                <div class="card-tech">
+                  <span>React</span><span>FastAPI</span><span>PostgreSQL</span><span>Tailwind</span><span>Recharts</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 10. Mian & Sons Hardware Store -->
+            <div class="project-card" data-cat="web python" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box web-icon"><i class="fas fa-store"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge web-b">React</span>
+                    <span class="lang-badge python-b">FastAPI</span>
+                    <span class="lang-badge db-b">MongoDB</span>
+                  </div>
+                </div>
+                <div class="header-actions">
+                  <a href="https://www.miansonshardwarestore.me/" target="_blank" title="Live Site"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Mian & Sons Hardware Store</h3>
+                <p class="project-desc">End-to-end digital storefront and management system with secure authentication, admin panel, sales tracking, and real-time inventory management.</p>
+                <div class="card-tech">
+                  <span>ReactJS</span><span>FastAPI</span><span>MongoDB</span>
+                </div>
+                <a href="https://www.miansonshardwarestore.me/" target="_blank" class="card-action-btn">
+                  <span>Visit Live Website</span> <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- 11. BITESPOT Food Website -->
+            <div class="project-card" data-cat="web" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box web-icon"><i class="fas fa-hamburger"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge php-b">PHP</span>
+                    <span class="lang-badge web-b">Web</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">BITESPOT Food Website</h3>
+                <p class="project-desc">Complete online food ordering platform — menu management, cart system, order tracking, and admin dashboard built with PHP & MySQL.</p>
+                <div class="card-tech">
+                  <span>PHP</span><span>MySQL</span><span>HTML/CSS</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 12. Vehicle Monitoring System -->
+            <div class="project-card" data-cat="web" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box web-icon"><i class="fas fa-car"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge web-b">System</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Vehicle Monitoring System</h3>
+                <p class="project-desc">A vehicle monitoring and tracking system designed to manage and track vehicle data efficiently.</p>
+                <div class="card-tech">
+                  <span>System Design</span><span>Tracking</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- 3. Zip Archiver App -->
-        <div class="project-card" data-cat="mobile" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box mobile-icon"><i class="fas fa-file-zipper"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge flutter-b">React Native</span>
-                <span class="lang-badge gui-b">Android</span>
+        <!-- ==================== GROUP 3: AI & AUTOMATION ==================== -->
+        <div class="project-category-group" data-group="python ai">
+          <div class="group-header" data-aos="fade-up">
+            <div class="group-title-wrap">
+              <div class="group-icon ai"><i class="fas fa-robot"></i></div>
+              <div>
+                <h3 class="group-title">AI, Computer Vision & Automation</h3>
+                <p class="group-subtitle">Multimodal models, object recognition, and voice-automated workflows</p>
               </div>
             </div>
+            <span class="group-count">3 Projects</span>
           </div>
-          <div class="card-body">
-            <h3 class="project-title">Zip Archiver App</h3>
-            <p class="project-desc">Offline file archive manager to create, extract, and manage compressed files featuring deep storage scanning, AES-256 encryption, and media indexing.</p>
-            <div class="card-tech">
-              <span>React Native</span><span>RNFS</span><span>Zip Archive</span><span>AES-256</span><span>AsyncStorage</span><span>Lottie</span>
+
+          <div class="projects-grid">
+            <!-- 13. HuggingFace Multimodal App -->
+            <div class="project-card" data-cat="python ai" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box ai-icon"><i class="fas fa-comments"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge python-b">Python</span>
+                    <span class="lang-badge ai-b">AI</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">HuggingFace Multimodal App</h3>
+                <p class="project-desc">A smart AI that analyzes images, answers questions, writes paragraphs, and speaks aloud — powered by HuggingFace & Streamlit.</p>
+                <div class="card-tech">
+                  <span>Streamlit</span><span>HuggingFace</span><span>TTS</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 14. Real-Time Object Detection -->
+            <div class="project-card" data-cat="python ai" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box ai-icon"><i class="fas fa-eye"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge python-b">Python</span>
+                    <span class="lang-badge ai-b">CV</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Real-Time Object Detection</h3>
+                <p class="project-desc">Live camera object detection using HuggingFace transformer models — detects objects in real time through webcam.</p>
+                <div class="card-tech">
+                  <span>HuggingFace</span><span>OpenCV</span><span>Transformers</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 15. Voice Appointment Booking -->
+            <div class="project-card" data-cat="python ai" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box ai-icon"><i class="fas fa-microphone-alt"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge ai-b">AI</span>
+                    <span class="lang-badge auto-b">Automation</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Voice Appointment Booking</h3>
+                <p class="project-desc">Voice-based AI system that books appointments via conversation — VAPI for voice, n8n for automation, Google Calendar + Gmail integration.</p>
+                <div class="card-tech">
+                  <span>VAPI</span><span>n8n</span><span>Google API</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- 4. Tiff Image Converter App -->
-        <div class="project-card" data-cat="mobile" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box mobile-icon"><i class="fas fa-file-image"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge flutter-b">React Native</span>
-                <span class="lang-badge gui-b">Android</span>
+        <!-- ==================== GROUP 4: JAVA & DESKTOP SYSTEMS ==================== -->
+        <div class="project-category-group" data-group="java">
+          <div class="group-header" data-aos="fade-up">
+            <div class="group-title-wrap">
+              <div class="group-icon java"><i class="fab fa-java"></i></div>
+              <div>
+                <h3 class="group-title">Java & Desktop Systems</h3>
+                <p class="group-subtitle">Database management systems and interactive desktop GUI applications</p>
               </div>
             </div>
+            <span class="group-count">2 Projects</span>
           </div>
-          <div class="card-body">
-            <h3 class="project-title">Tiff Image Converter App</h3>
-            <p class="project-desc">Offline multi-page TIFF viewer and converter featuring a high-speed batch conversion engine exporting TIFF files to JPG, PNG, WEBP, and PDF.</p>
-            <div class="card-tech">
-              <span>React Native</span><span>UTIF</span><span>RNFS</span><span>Batch Export</span><span>i18next</span><span>Lottie</span>
-            </div>
-          </div>
-        </div>
 
-        <!-- 5. Car Showroom ERP System -->
-        <div class="project-card" data-cat="web python" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box vehicle-icon"><i class="fas fa-car-side"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge web-b">React</span>
-                <span class="lang-badge python-b">FastAPI</span>
-                <span class="lang-badge db-b">PostgreSQL</span>
+          <div class="projects-grid">
+            <!-- 16. Restaurant Order System -->
+            <div class="project-card" data-cat="java" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box java-icon"><i class="fas fa-utensils"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge java-b">Java</span>
+                    <span class="lang-badge db-b">JDBC</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="project-title">Restaurant Order System</h3>
+                <p class="project-desc">Full-featured restaurant order management system built with Java & JDBC for database-driven order processing.</p>
+                <div class="card-tech">
+                  <span>Java</span><span>JDBC</span><span>MySQL</span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="card-body">
-            <h3 class="project-title">Car Showroom ERP System</h3>
-            <p class="project-desc">Full-stack dealership platform to manage vehicle inventory, sales, consignments, and installments with role-based auth, async REST APIs, and dynamic financial dashboards.</p>
-            <div class="card-tech">
-              <span>React</span><span>FastAPI</span><span>PostgreSQL</span><span>Tailwind</span><span>Recharts</span>
-            </div>
-          </div>
-        </div>
 
-        <!-- 6. Software Update & Device Diagnostic App -->
-        <div class="project-card" data-cat="mobile" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box mobile-icon"><i class="fas fa-mobile-alt"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge flutter-b">React Native</span>
-                <span class="lang-badge gui-b">Android</span>
+            <!-- 17. Contact Book -->
+            <div class="project-card" data-cat="java" data-aos="fade-up">
+              <div class="card-header-bar">
+                <div class="header-left">
+                  <div class="project-icon-box java-icon"><i class="fas fa-address-book"></i></div>
+                  <div class="card-lang">
+                    <span class="lang-badge java-b">Java</span>
+                    <span class="lang-badge gui-b">GUI</span>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <h3 class="project-title">Software Update & Device Diagnostic App</h3>
-            <p class="project-desc">Cross-platform mobile utility for hardware diagnostics, OS verification, update scanning, bulk uninstalls, storage analytics, and AI troubleshooting assistant with i18n support.</p>
-            <div class="card-tech">
-              <span>React Native</span><span>JS</span><span>Android APIs</span><span>AsyncStorage</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 7. Reverse Image Search App -->
-        <div class="project-card" data-cat="mobile python ai" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box ai-icon"><i class="fas fa-search-location"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge flutter-b">React Native</span>
-                <span class="lang-badge ai-b">Vision AI</span>
+              <div class="card-body">
+                <h3 class="project-title">Contact Book</h3>
+                <p class="project-desc">Java Swing GUI application for managing contacts — add, edit, delete, and search contacts with a clean interface.</p>
+                <div class="card-tech">
+                  <span>Java</span><span>Swing</span><span>File I/O</span>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <h3 class="project-title">Reverse Image Search App</h3>
-            <p class="project-desc">AI-powered visual identification app featuring multi-engine reverse image searching, camera/gallery integration, image cropping, automated usage tracking, and caching.</p>
-            <div class="card-tech">
-              <span>React Native</span><span>Vision AI</span><span>REST APIs</span><span>JavaScript</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 8. Duplicate File Remover App -->
-        <div class="project-card" data-cat="mobile java" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box java-icon"><i class="fas fa-copy"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge flutter-b">React Native</span>
-                <span class="lang-badge java-b">Java Native</span>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <h3 class="project-title">Duplicate File Remover App</h3>
-            <p class="project-desc">High-performance Android utility app to scan, group, and safely remove duplicate media and documents using file-hashing algorithms and custom Java Native Modules for Scoped Storage.</p>
-            <div class="card-tech">
-              <span>React Native</span><span>Java Modules</span><span>Android APIs</span><span>File Hashing</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 9. Mian & Sons Hardware Store -->
-        <div class="project-card" data-cat="web python" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box web-icon"><i class="fas fa-store"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge web-b">React</span>
-                <span class="lang-badge python-b">FastAPI</span>
-                <span class="lang-badge db-b">MongoDB</span>
-              </div>
-            </div>
-            <div class="header-actions">
-              <a href="https://www.miansonshardwarestore.me/" target="_blank" title="Live Site"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="card-body">
-            <h3 class="project-title">Mian & Sons Hardware Store</h3>
-            <p class="project-desc">End-to-end digital storefront and management system with secure authentication, admin panel, sales tracking, and real-time inventory management.</p>
-            <div class="card-tech">
-              <span>ReactJS</span><span>FastAPI</span><span>MongoDB</span>
-            </div>
-            <a href="https://www.miansonshardwarestore.me/" target="_blank" class="card-action-btn">
-              <span>Visit Live Website</span> <i class="fas fa-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-
-        <!-- 10. HuggingFace Multimodal App -->
-        <div class="project-card" data-cat="python ai" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box ai-icon"><i class="fas fa-comments"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge python-b">Python</span>
-                <span class="lang-badge ai-b">AI</span>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <h3 class="project-title">HuggingFace Multimodal App</h3>
-            <p class="project-desc">A smart AI that analyzes images, answers questions, writes paragraphs, and speaks aloud — powered by HuggingFace & Streamlit.</p>
-            <div class="card-tech">
-              <span>Streamlit</span><span>HuggingFace</span><span>TTS</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 11. Real-Time Object Detection -->
-        <div class="project-card" data-cat="python ai" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box ai-icon"><i class="fas fa-eye"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge python-b">Python</span>
-                <span class="lang-badge ai-b">CV</span>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <h3 class="project-title">Real-Time Object Detection</h3>
-            <p class="project-desc">Live camera object detection using HuggingFace transformer models — detects objects in real time through webcam.</p>
-            <div class="card-tech">
-              <span>HuggingFace</span><span>OpenCV</span><span>Transformers</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 12. Restaurant Order System -->
-        <div class="project-card" data-cat="java" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box java-icon"><i class="fas fa-utensils"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge java-b">Java</span>
-                <span class="lang-badge db-b">JDBC</span>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <h3 class="project-title">Restaurant Order System</h3>
-            <p class="project-desc">Full-featured restaurant order management system built with Java & JDBC for database-driven order processing.</p>
-            <div class="card-tech">
-              <span>Java</span><span>JDBC</span><span>MySQL</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 13. Contact Book -->
-        <div class="project-card" data-cat="java" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box java-icon"><i class="fas fa-address-book"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge java-b">Java</span>
-                <span class="lang-badge gui-b">GUI</span>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <h3 class="project-title">Contact Book</h3>
-            <p class="project-desc">Java Swing GUI application for managing contacts — add, edit, delete, and search contacts with a clean interface.</p>
-            <div class="card-tech">
-              <span>Java</span><span>Swing</span><span>File I/O</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 14. Loan Simulator App -->
-        <div class="project-card" data-cat="mobile" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box mobile-icon"><i class="fas fa-calculator"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge dart-b">Dart</span>
-                <span class="lang-badge flutter-b">Flutter</span>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <h3 class="project-title">Loan Simulator App</h3>
-            <p class="project-desc">Beautiful Flutter mobile application that simulates loan calculations — monthly payments, interest rates, and repayment schedule.</p>
-            <div class="card-tech">
-              <span>Flutter</span><span>Dart</span><span>Material UI</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 15. BITESPOT Food Website -->
-        <div class="project-card" data-cat="web" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box web-icon"><i class="fas fa-hamburger"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge php-b">PHP</span>
-                <span class="lang-badge web-b">Web</span>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <h3 class="project-title">BITESPOT Food Website</h3>
-            <p class="project-desc">Complete online food ordering platform — menu management, cart system, order tracking, and admin dashboard built with PHP & MySQL.</p>
-            <div class="card-tech">
-              <span>PHP</span><span>MySQL</span><span>HTML/CSS</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 16. Voice Appointment Booking -->
-        <div class="project-card" data-cat="python ai" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box ai-icon"><i class="fas fa-microphone-alt"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge ai-b">AI</span>
-                <span class="lang-badge auto-b">Automation</span>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <h3 class="project-title">Voice Appointment Booking</h3>
-            <p class="project-desc">Voice-based AI system that books appointments via conversation — VAPI for voice, n8n for automation, Google Calendar + Gmail integration.</p>
-            <div class="card-tech">
-              <span>VAPI</span><span>n8n</span><span>Google API</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- 17. Vehicle Monitoring System -->
-        <div class="project-card" data-cat="web" data-aos="fade-up">
-          <div class="card-header-bar">
-            <div class="header-left">
-              <div class="project-icon-box web-icon"><i class="fas fa-car"></i></div>
-              <div class="card-lang">
-                <span class="lang-badge web-b">System</span>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <h3 class="project-title">Vehicle Monitoring System</h3>
-            <p class="project-desc">A vehicle monitoring and tracking system designed to manage and track vehicle data efficiently.</p>
-            <div class="card-tech">
-              <span>System Design</span><span>Tracking</span>
             </div>
           </div>
         </div>
